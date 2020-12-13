@@ -45,8 +45,10 @@ const routes = [
   {
     path: '/*',
     name: 'noFound',
-    component: NoFound
-
+    component: NoFound,
+    meta: {
+      requiresAuth: true
+    }
   }
 ]
 
