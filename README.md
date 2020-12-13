@@ -6,13 +6,14 @@ con uso de grid para el layout, cuenta con 2 componentes (pxHeader y pxTitleTab)
  a una página "no encontrada",si se intenta ver estas rutas sin login será redireccionado a la vista login.
  
 Para usar este proyecto en local:
-1.- $ npm run server 
+1.- $npm install
+2.- $ npm run server 
     desde la carpeta raiz
-2.- Dirigirse a: http://localhost:8080/login en el navegador
-3.-realizar el login con el siguiente usuario:
+3.- Dirigirse a: http://localhost:8080/login en el navegador
+4.-realizar el login con el siguiente usuario:
 -email: prueba@email.com
 -password: test1234
-4.-(opcional) para crear el compilado de archivos estáticos para subirlo a un servidor:
+5.-(opcional) para crear el compilado de archivos estáticos para subirlo a un servidor:
 $ npm run build,
 
 **consideraciones: 
