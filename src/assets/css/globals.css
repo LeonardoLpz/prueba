@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --dark-light: #171A25;
+    --dark-strong:#080A12;
+    --green:#62DEA1;
+    --white:#FFFFFF;
+    --gray: #838286;
+    --yellow: #f0c94d,
+}
+
+html{
+    background-color: var(--dark-strong);
+}
+

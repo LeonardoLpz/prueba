@@ -1,0 +1,49 @@
+.login {
+    padding: 16px;
+}
+.form {
+    display: grid;
+    grid-row-gap: 15px;
+    box-sizing: border-box;
+}
+.form-label {
+    color: white;
+    font-size: 16px;
+}
+.form-input {
+    padding: 10px 15px;
+    height: 24px;
+    background: none;
+    border: 1px solid var(--green);
+    border-radius: 5px;
+    color: white;
+
+}
+.form-submit {
+    background: var(--green);
+    border: none;
+    color: black;
+    cursor: pointer;
+    transition: background 0.2s;
+    height: 45px;
+    position: absolute;
+    bottom: 16px;
+    width: calc(100vw - 32px);
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+input{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    opacity: 1;
+    outline: var(--white);
+}
+.msg{
+    color:white;
+}
+.error{
+    color:yellow;
+    font-size: 14px;
+}
